@@ -1,7 +1,6 @@
-package com.example.cs441_project7;
+package com.example.cs441_project6;
 
 import android.content.Context;
-
 import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
@@ -22,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.example.cs441_project7", appContext.getPackageName());
+        assertEquals("com.example.cs441_project6", appContext.getPackageName());
     }
 }

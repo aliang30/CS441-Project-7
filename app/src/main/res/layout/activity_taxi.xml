@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cement"
+    tools:context=".Taxi">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="PAUSE"
+        android:textSize="12sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="520dp"
+        android:id="@+id/pauseBtn"
+        android:onClick="pausePushed" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="QUIT"
+        android:textSize="12sp"
+        android:layout_marginLeft="255dp"
+        android:layout_marginTop="520dp"
+        android:id="@+id/QuitBtn"
+        android:onClick="pausePushed" />
+
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="540dp"
+        android:layout_height="600dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="53dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/road" />
+
+    <ImageView
+        android:id="@+id/audi"
+        android:layout_width="200dp"
+        android:layout_height="260dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/taxi" />
+
+    <ImageView
+        android:id="@+id/cone"
+        android:layout_width="90dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/cone" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="10dp"
+        android:text="Score: 0"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lives"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Lives: 3"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
