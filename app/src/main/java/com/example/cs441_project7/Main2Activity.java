@@ -136,7 +136,7 @@ public class Main2Activity extends AppCompatActivity {
 
     //Opens game screen
     public void openActivity() {
-        Intent intent = new Intent (this, RedCar.class);
+        Intent intent = new Intent (this, Difficulty.class);
         startActivity(intent);
     }
 
