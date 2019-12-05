@@ -14,7 +14,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="130dp"
         android:gravity="center|center_horizontal"
-        android:text="YOU CHOSE THE RED AUDI. NOW PICK YOUR DIFFICULTY"
+        android:text="YOU CHOSE TO DRIVE THE ORANGE CHEVROLET. NOW PICK YOUR DIFFICULTY"
         android:textColor="#FFFFFF"
         android:textSize="30dp"
         android:textStyle="bold"

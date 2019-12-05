@@ -134,7 +134,7 @@ public class Taxi extends AppCompatActivity {
     }
 
     public void openResult() {
-        Intent intent = new Intent (this, Main3Activity.class);
+        Intent intent = new Intent (this, TaxiGameOver1.class);
         startActivity(intent);
     }
 
@@ -160,7 +160,7 @@ public class Taxi extends AppCompatActivity {
             lives--;
             text_lives.setText("Lives: " + lives);
             if(lives == 0){
-                Intent intent2 = new Intent (this, Main3Activity.class);
+                Intent intent2 = new Intent (this, TaxiGameOver1.class);
                 intent2.putExtra("SCORE", score);
                 startActivity(intent2);
             }

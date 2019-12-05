@@ -134,7 +134,7 @@ public class BlackCar extends AppCompatActivity {
     }
 
     public void openResult() {
-        Intent intent = new Intent (this, Main3Activity.class);
+        Intent intent = new Intent (this, BlackCarGameOver1.class);
         startActivity(intent);
     }
 
@@ -161,7 +161,7 @@ public class BlackCar extends AppCompatActivity {
             lives--;
             text_lives.setText("Lives: " + lives);
             if(lives == 0){
-                Intent intent = new Intent (this, Main3Activity.class);
+                Intent intent = new Intent (this, BlackCarGameOver1.class);
                 intent.putExtra("SCORE", score);
                 startActivity(intent);
             }

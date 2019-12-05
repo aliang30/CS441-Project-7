@@ -134,7 +134,7 @@ public class RedCar extends AppCompatActivity {
     }
 
     public void openResult() {
-        Intent intent = new Intent (this, Main3Activity.class);
+        Intent intent = new Intent (this, RedCarGameOver1.class);
         startActivity(intent);
     }
 
@@ -160,7 +160,7 @@ public class RedCar extends AppCompatActivity {
             lives--;
             text_lives.setText("Lives: " + lives);
             if(lives == 0){
-                Intent intent2 = new Intent (this, Main3Activity.class);
+                Intent intent2 = new Intent (this, RedCarGameOver1.class);
                 intent2.putExtra("SCORE", score);
                 startActivity(intent2);
             }

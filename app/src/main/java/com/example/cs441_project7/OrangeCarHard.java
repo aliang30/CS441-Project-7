@@ -133,7 +133,7 @@ public class OrangeCarHard extends AppCompatActivity {
     }
 
     public void openResult() {
-        Intent intent = new Intent (this, Main3Activity.class);
+        Intent intent = new Intent (this, OrangeCarGameOver2.class);
         startActivity(intent);
     }
 
@@ -159,7 +159,7 @@ public class OrangeCarHard extends AppCompatActivity {
             lives--;
             text_lives.setText("Lives: " + lives);
             if(lives == 0){
-                Intent intent2 = new Intent (this, Main3Activity.class);
+                Intent intent2 = new Intent (this, OrangeCarGameOver2.class);
                 intent2.putExtra("SCORE", score);
                 startActivity(intent2);
             }
