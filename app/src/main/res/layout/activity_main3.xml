@@ -79,6 +79,4 @@
         android:text="Home"
         android:textColor="@android:color/white" />
 
-
-
 </RelativeLayout>

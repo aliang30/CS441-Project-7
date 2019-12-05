@@ -136,43 +136,43 @@ public class Main2Activity extends AppCompatActivity {
 
     //Opens game screen
     public void openActivity() {
-        Intent intent = new Intent (this, Difficulty.class);
+        Intent intent = new Intent (this, RedCarDifficulty.class);
         startActivity(intent);
     }
 
     //Opens game screen
     public void openActivity1() {
-        Intent intent = new Intent (this, BlackCar.class);
+        Intent intent = new Intent (this, BlackCarDifficulty.class);
         startActivity(intent);
     }
 
     public void openActivity2() {
-        Intent intent = new Intent (this, Ambulance.class);
+        Intent intent = new Intent (this, AmbulanceDifficulty.class);
         startActivity(intent);
     }
 
     public void openActivity3() {
-        Intent intent = new Intent (this, Truck2.class);
+        Intent intent = new Intent (this, Truck2Difficulty.class);
         startActivity(intent);
     }
 
     public void openActivity4() {
-        Intent intent = new Intent (this, OrangeCar.class);
+        Intent intent = new Intent (this, OrangeCarDifficulty.class);
         startActivity(intent);
     }
 
     public void openActivity5() {
-        Intent intent = new Intent (this, Police.class);
+        Intent intent = new Intent (this, PoliceDifficulty.class);
         startActivity(intent);
     }
 
     public void openActivity6() {
-        Intent intent = new Intent (this, Taxi.class);
+        Intent intent = new Intent (this, TaxiDifficulty.class);
         startActivity(intent);
     }
 
     public void openActivity7() {
-        Intent intent = new Intent (this, Van.class);
+        Intent intent = new Intent (this, VanDifficulty.class);
         startActivity(intent);
     }
 
