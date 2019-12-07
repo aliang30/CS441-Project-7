@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:scrolling_image_view="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/wallpaper3"
+    tools:context=".QuizMainMenu">
+
+    <ImageButton
+        android:id="@+id/start"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:src="@drawable/button_take_quiz"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="330dp"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:id="@+id/instruction"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:src="@drawable/button_instructions2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginRight="88dp"
+        android:layout_marginBottom="255dp"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:id="@+id/button3"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:src="@drawable/button_main_menu2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginRight="48dp"
+        android:layout_marginBottom="180dp"
+        android:gravity="center"/>
+
+</RelativeLayout>

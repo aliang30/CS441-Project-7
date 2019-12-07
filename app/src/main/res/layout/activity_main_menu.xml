@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:scrolling_image_view="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/traffic"
+    android:background="@drawable/quiz_wallpaper"
     tools:context=".MainMenu">
 
     <ImageView

@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainMenu extends AppCompatActivity {
+public class QuizMainMenu extends AppCompatActivity {
 
     private Button startButton;
     private Button secondButton;
@@ -17,27 +17,9 @@ public class MainMenu extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_menu);
+        setContentView(R.layout.activity_quiz_main_menu);
 
         score1 = getIntent().getIntExtra("SCORE", 0);
-
-        /*
-        startButton = (Button) findViewById(R.id.button);
-        startButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openActivity();
-            }
-        });
-
-        secondButton = (Button) findViewById(R.id.button2);
-        secondButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openActivity2();
-            }
-        });
-        */
 
         findViewById(R.id.start).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -60,12 +42,6 @@ public class MainMenu extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.button4).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openActivity4();
-            }
-        });
     }
 
     public void openActivity() {
@@ -80,13 +56,9 @@ public class MainMenu extends AppCompatActivity {
     }
 
     public void openActivity3() {
-        Intent intent = new Intent (this, HighScore.class);
+        Intent intent = new Intent (this, MainMenu.class);
         intent.putExtra("SCORE", score1);
         startActivity(intent);
     }
 
-    public void openActivity4() {
-        Intent intent = new Intent (this, QuizMainMenu.class);
-        startActivity(intent);
-    }
 }
