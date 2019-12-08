@@ -45,7 +45,7 @@ public class QuizMainMenu extends AppCompatActivity {
     }
 
     public void openActivity() {
-        Intent intent = new Intent (this, Main2Activity.class);
+        Intent intent = new Intent (this, Quiz.class);
         startActivity(intent);
     }
 

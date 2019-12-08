@@ -1,9 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
     tools:context=".Quiz">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/countLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question #1"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/questionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What car is this?"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/honda" />
+
+    <Button
+        android:id="@+id/answerBtn1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="A) 2020 Hyundai Elantra"
+        android:layout_marginTop="6dp"
+        android:onClick="checkAnswer"/>
+
+    <Button
+        android:id="@+id/answerBtn2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="B) 2020 Honda Insight"
+        android:layout_marginTop="6dp"
+        android:onClick="checkAnswer"/>
+
+    <Button
+        android:id="@+id/answerBtn3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="C) 2018 Honda Civic Sedan"
+        android:layout_marginTop="6dp"
+        android:onClick="checkAnswer"/>
+
+    <Button
+        android:id="@+id/answerBtn4"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="D) 2019 Honda Clarity Electric"
+        android:layout_marginTop="6dp"
+        android:onClick="checkAnswer"/>
+
+
+
+</LinearLayout>
