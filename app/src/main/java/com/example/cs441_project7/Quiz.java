@@ -28,7 +28,7 @@ public class Quiz extends AppCompatActivity {
     private Button answerBtn3;
     private Button answerBtn4;
 
-    static final private int QUIZ_COUNT = 3;
+    static final private int QUIZ_COUNT = 6;
     private String rightAnswer;
     private int rightAnswerCount = 0;
     private int quizCount = 1;
@@ -36,9 +36,12 @@ public class Quiz extends AppCompatActivity {
     ArrayList<ArrayList <String>> quizArray = new ArrayList<>();
 
     String quizData[][] ={
-            {"honda", "2018 Honda Civic Sedan" , "2020 Hyundai Elantra" , "2020 Honda Insight" , "2019 Honda Clarity Electric"},
-            {"porsche", "Porsche" , "Lamborghini" , "Ferrari" , "Bentley"},
-            {"dodge", "2019 Dodge Charger" , "2019 Dodge Journey" , "2020 Dodge Durango" , "2019 Dodge Grand Caravan"}
+            {"honda", "2018 Honda Civic Sedan" , "2020 Hyundai Elantra" , "2020 Honda Insight" , "2019 Honda Clarity Electric"} ,
+            {"porsche", "Porsche" , "Lamborghini" , "Ferrari" , "Bentley"} ,
+            {"dodge", "2019 Dodge Charger" , "2019 Dodge Journey" , "2020 Dodge Durango" , "2019 Dodge Grand Caravan"} ,
+            {"toyota", "2020 Toyota Prius" , "2020 Toyota Supra" , "2020 Toyota 86" , "2020 Toyota Corolla"} ,
+            {"ford" , "2020 Ford Ranger" , "2019 Ford Fiesta" , "2020 Ford F-250" , "2020 Ford Escape"} ,
+            {"volkswagen" , "2019 Volkswagen Beetle" , "2020 Volkswagen Atlas" , "2020 Volkswagen Jetta GLI" , "2019 Volkswagen e-Golf"}
     };
 
 
