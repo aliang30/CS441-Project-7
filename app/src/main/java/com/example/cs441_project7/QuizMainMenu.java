@@ -51,13 +51,12 @@ public class QuizMainMenu extends AppCompatActivity {
 
 
     public void openActivity2() {
-        Intent intent = new Intent (this, Instructions.class);
+        Intent intent = new Intent (this, QuizInstructions.class);
         startActivity(intent);
     }
 
     public void openActivity3() {
         Intent intent = new Intent (this, MainMenu.class);
-        intent.putExtra("SCORE", score1);
         startActivity(intent);
     }
 

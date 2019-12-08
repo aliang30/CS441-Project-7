@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_x="100dp"
+    android:layout_y="50dp"
+    android:background="@drawable/wallpaper3"
+    tools:context=".QuizInstructions">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center|center_horizontal"
+        android:layout_marginRight="90dp"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/button_design3"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Go Back"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        android:lines="1"
+        android:paddingLeft="50dp"
+        android:text="How to Play:"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="You take a simple multiple choice question. You are given a picture and you simply have to choose the correct car name."
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/info2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="Guess the correct answer, you get one point."
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp" />
+
+</RelativeLayout>
