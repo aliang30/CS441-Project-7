@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
+    android:background="#93AF67"
     tools:context=".QuizResult">
 
     <TextView
@@ -38,7 +39,6 @@
         android:text="return to main menu"
         android:textSize="18sp"
         android:layout_marginTop="80dp" />
-
 
 
 </LinearLayout>

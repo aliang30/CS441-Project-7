@@ -19,16 +19,16 @@ import java.util.Random;
 
 public class Quiz extends AppCompatActivity {
 
-    private TextView countLabel;
-    private TextView questionLabel;
-    private ImageView questionImage;
-
     private Button answerBtn1;
     private Button answerBtn2;
     private Button answerBtn3;
     private Button answerBtn4;
+    private TextView countLabel;
+    private TextView questionLabel;
+    private ImageView questionImage;
 
-    static final private int QUIZ_COUNT = 6;
+    //quiz number
+    static final private int QUIZ_COUNT = 7;
     private String rightAnswer;
     private int rightAnswerCount = 0;
     private int quizCount = 1;
@@ -41,9 +41,9 @@ public class Quiz extends AppCompatActivity {
             {"dodge", "2019 Dodge Charger" , "2019 Dodge Journey" , "2020 Dodge Durango" , "2019 Dodge Grand Caravan"} ,
             {"toyota", "2020 Toyota Prius" , "2020 Toyota Supra" , "2020 Toyota 86" , "2020 Toyota Corolla"} ,
             {"ford" , "2020 Ford Ranger" , "2019 Ford Fiesta" , "2020 Ford F-250" , "2020 Ford Escape"} ,
-            {"volkswagen" , "2019 Volkswagen Beetle" , "2020 Volkswagen Atlas" , "2020 Volkswagen Jetta GLI" , "2019 Volkswagen e-Golf"}
+            {"volkswagen" , "2019 Volkswagen Beetle" , "2020 Volkswagen Atlas" , "2020 Volkswagen Jetta GLI" , "2019 Volkswagen e-Golf"} ,
+            {"audi2" , "2019 Audi A5" , "2020 Audi TT" , "2019 Audi A4" , "2020 Audi Q8"}
     };
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -88,6 +88,7 @@ public class Quiz extends AppCompatActivity {
         rightAnswer = quiz.get(1);
 
         quiz.remove(0);
+        //shuffle the quiz
         Collections.shuffle(quiz);
 
         answerBtn1.setText(quiz.get(0));
@@ -105,10 +106,10 @@ public class Quiz extends AppCompatActivity {
         String alertTitle;
 
         if(btnText.equals(rightAnswer)) {
-            alertTitle = "Good Job!";
+            alertTitle = "Good Job! +1 ";
             rightAnswerCount ++;
         } else {
-            alertTitle = "Incorrect. Try again.";
+            alertTitle = "Incorrect!";
         }
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
