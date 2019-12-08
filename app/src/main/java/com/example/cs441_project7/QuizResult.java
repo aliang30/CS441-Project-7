@@ -36,7 +36,7 @@ public class QuizResult extends AppCompatActivity {
         int totalScore = settings.getInt("totalScore", 0);
         totalScore = totalScore + score;
 
-        resultLabel.setText(score + " / 6");
+        resultLabel.setText(score + " / 7");
         totalScoreLabel.setText("Total Score : " + totalScore);
 
         SharedPreferences.Editor editor = settings.edit();

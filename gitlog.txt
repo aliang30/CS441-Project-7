@@ -1,0 +1,89 @@
+commit 44b407166fdc2f6986bb5bad04d5c5683aaee81d
+Author: aliang30 <aliang30@binghamton>
+Date:   Sat Dec 7 23:54:18 2019 -0500
+
+    Modified readme
+
+commit 5b982e3efacc031b88c89596227dec6ed5c9d261
+Author: aliang30 <aliang30@binghamton>
+Date:   Sat Dec 7 23:32:37 2019 -0500
+
+    Slight modifications to quiz result screen + added extra question
+
+commit c15e8df3482ea6735d8e85ca8f8990150ddb9e82
+Author: aliang30 <aliang30@binghamton>
+Date:   Sat Dec 7 23:13:50 2019 -0500
+
+    Added more quiz questions + modified result activity
+
+commit 3d31a9abcb101241a4afb0aff2a634e435363452
+Author: aliang30 <aliang30@binghamton>
+Date:   Sat Dec 7 22:58:14 2019 -0500
+
+    Added more quiz questions + fixed result screen
+
+commit 76e6fae5d2b15a264847d4a8bf05be59f97beef4
+Author: aliang30 <aliang30@binghamton>
+Date:   Sat Dec 7 21:36:37 2019 -0500
+
+    Added quizResult activity
+
+commit e79c7c22de9df7ff10d09d32f5938a73d35c7d63
+Author: aliang30 <aliang30@binghamton>
+Date:   Sat Dec 7 21:24:28 2019 -0500
+
+    Added code to quiz activity + modified quiz layout
+
+commit 5e8efa9e5891c1d0f99ad09a87121d591d5d0fa7
+Author: aliang30 <aliang30@binghamton>
+Date:   Sat Dec 7 20:24:51 2019 -0500
+
+    Finished quiz instruction screen
+
+commit a10260a979fb29a1bcf5ad0b30cbdf0726efc658
+Author: aliang30 <aliang30@binghamton>
+Date:   Fri Dec 6 22:13:55 2019 -0500
+
+    Created UI for quiz game
+
+commit 2bd00ef9a572d2827e45d99a2580ef36af3a6051
+Author: aliang30 <aliang30@binghamton>
+Date:   Thu Dec 5 14:30:21 2019 -0500
+
+    Updated main menu UI + fixed difficulty setting
+
+commit d2c7c183a0ee61d1eb4d4ff21e7e2f42896ce67b
+Author: aliang30 <aliang30@binghamton>
+Date:   Thu Dec 5 11:45:18 2019 -0500
+
+    Added code to difficulty setting screens
+
+commit 18e3748896377d7d1ccd206becdc9183cd929207
+Author: aliang30 <aliang30@binghamton>
+Date:   Thu Dec 5 11:19:41 2019 -0500
+
+    Added code to game over screens
+
+commit 6dfaaae87a37b0f1a1da89221d9104562ad7fd5a
+Author: aliang30 <aliang30@binghamton>
+Date:   Wed Dec 4 15:21:03 2019 -0500
+
+    Added UI for difficulty screen
+
+commit 414f22e1116240e134d4c38f176e600f9bfe3e21
+Author: aliang30 <aliang30@binghamton>
+Date:   Wed Dec 4 10:37:23 2019 -0500
+
+    Fixed problem in previous files
+
+commit 30dff21bea10237e8bc6c2f10fe3fd00f86ce5e1
+Author: aliang30 <aliang30@binghamton>
+Date:   Mon Dec 2 22:38:54 2019 -0500
+
+    Added previous files from last game
+
+commit 98bbf19a1e9d26895737963c848040a88afd37fb
+Author: aliang30 <aliang30@binghamton>
+Date:   Thu Nov 28 03:30:25 2019 -0500
+
+    First commit
