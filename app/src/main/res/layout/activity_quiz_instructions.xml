@@ -44,7 +44,7 @@
         android:layout_marginTop="130dp"
         android:paddingLeft="50dp"
         android:paddingRight="50dp"
-        android:text="You take a simple multiple choice question. You are given a picture and you simply have to choose the correct car name."
+        android:text="You take a simple multiple choice question quiz. You are given a picture and you simply have to choose the correct car name."
         android:textColor="#FFFFFFFF"
         android:textSize="20sp" />
 
